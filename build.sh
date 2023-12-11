@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-pip install -r requirements/base.txt
+pip3 install -r requirements/production.txt
 python manage.py migrate
 python manage.py collectstatic
